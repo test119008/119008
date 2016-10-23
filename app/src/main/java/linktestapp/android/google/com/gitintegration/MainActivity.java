@@ -12,5 +12,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toast.makeText(MainActivity.this, "`zc`zc", Toast.LENGTH_SHORT).show();
+
+        Toast.makeText(this,"check-out-button",Toast.LENGTH_LONG).show();
     }
 }
